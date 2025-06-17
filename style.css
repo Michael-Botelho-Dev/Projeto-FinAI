@@ -30,3 +30,24 @@ body {
 .navbar .btn:hover {
     background-color: #009e88;
 }
+
+section .bg-white {
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+h5 {
+    color: #004d40;
+}
+
+
+.btn-outline-success {
+    border-color: #00bfa5;
+    color: #00bfa5;
+}
+
+.btn-outline-success:hover {
+    background-color: #00bfa5;
+    color: white;
+}
