@@ -2,3 +2,31 @@ body {
     background: linear-gradient(180deg, #00695c, #00bfa5);
     min-height: 100vh;
 }
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #00695c;
+}
+
+.navbar .nav-link {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #00bfa5;
+}
+
+.navbar .btn {
+    background-color: #00bfa5;
+    color: white;
+    border: none;
+}
+
+.navbar .btn:hover {
+    background-color: #009e88;
+}
