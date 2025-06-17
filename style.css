@@ -51,3 +51,16 @@ h5 {
     background-color: #00bfa5;
     color: white;
 }
+
+.text-success {
+    color: #00bfa5 !important;
+}
+
+.text-danger {
+    color: #d50000 !important;
+}
+
+
+.border-top {
+    border-color: #ddd !important;
+}
